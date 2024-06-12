@@ -19,7 +19,7 @@ sed -i 's/192.168.1.1/192.168.100.10/g' package/base-files/files/bin/config_gene
 sed -i 's/OpenWrt/DianerWRT/g' package/base-files/files/bin/config_generate
 
 # 修改默认主题（FROM uci-theme-bootstrap CHANGE TO luci-theme-material）
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argone/g' ./feeds/luci/collections/luci/Makefile
 
 # Set DISTRIB_REVISION
 # sed -i "s/OpenWrt /Deng Build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
